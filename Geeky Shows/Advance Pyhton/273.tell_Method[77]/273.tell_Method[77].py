@@ -1,0 +1,8 @@
+f=open('temp.txt')
+print(f.tell())
+data1=f.read(5)
+print(data1)
+print(f.tell())
+data2=f.read(3)
+print(data2)
+print(f.tell())

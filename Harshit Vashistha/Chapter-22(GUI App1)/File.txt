@@ -1,0 +1,9 @@
+Satyam Seth,20,satyam1998.1998@gmail.com,Male,Student,Yes
+Harshit Dixit,21,harshitdixit123@gmail.com,Male,Student,No
+
+,,,Male,Teacher,No
+sajdf,5,sdjk,Male,Teacher,No
+sda,5,cv,Male,Teacher,No
+sfsd,9,ffdkjb,Male,Teacher,No
+seus,dfsuf,fuegku,Male,Teacher,No
+ergfu,cfd,dfu,Male,Teacher,No

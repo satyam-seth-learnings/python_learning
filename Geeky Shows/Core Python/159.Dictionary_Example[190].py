@@ -1,0 +1,14 @@
+d={}
+print(d)
+print(type(d))
+stu={101:'Satyam',102:'Raj',103:'Ram'}
+print(stu)
+print(stu[101])
+fees={'Rahul':2000,'Ram':4000}
+print(fees)
+print(fees['Rahul'])
+stu1={'Raj':101,'raj':102,'Raj':103,101:'Ram','Name':'Satyam'}
+print(stu1['Raj'])
+print(stu1['raj'])
+print(stu1[101])
+print(stu1['Name'])

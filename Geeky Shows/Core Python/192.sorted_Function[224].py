@@ -1,0 +1,12 @@
+a=[40,10,30,20]
+b=(10,80,8,40)
+c={70,90,3,40,80}
+d={101:'Satyam',108:'Raj',102:'Aman'}
+e=[[10,20],[30,40],[87,9]]
+f=[(101,'Satyam'),(103,'Seth'),(102,'Aman')]
+print(sorted(a))
+print(sorted(b))
+print(sorted(c))
+print(sorted(d))
+print(sorted(e))
+print(sorted(f))

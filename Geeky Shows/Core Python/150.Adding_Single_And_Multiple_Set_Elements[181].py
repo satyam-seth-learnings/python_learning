@@ -1,0 +1,18 @@
+a=set()
+print(a)
+a.add('Python')
+print(a)
+b={10,20,'Satyam'}
+print(b)
+b.add('Python')
+print(b)
+c=set()
+print(c)
+c.update([10,20,30])
+print(c)
+d={50,6.7,'Seth'}
+print("Before Adding:",d)
+print(id(d))
+d.update([101,102,103])
+print("After Adding:",d)
+print(id(d))

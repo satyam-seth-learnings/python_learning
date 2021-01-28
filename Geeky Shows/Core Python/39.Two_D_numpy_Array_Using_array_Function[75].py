@@ -1,0 +1,29 @@
+import numpy
+a=numpy.array([[10,20,30,40],
+               [50,60,70,80]])
+print(a)
+print(a.dtype)
+print(a[0][0])
+print(a[0][1])
+print(a[1][1])
+a1=numpy.array([[10,20,30,40],
+               [50,60,70,80]],dtype=float)
+print(a1)
+print(a1.dtype)
+print(a1[0][0])
+print(a1[0][1])
+print(a1[1][1])
+a2=numpy.array([[10,20,30,40],
+               [50,60,70,8.0]])
+print(a2)
+print(a2.dtype)
+print(a2[0][0])
+print(a2[0][1])
+print(a2[1][1])
+a3=numpy.array([["Satyam","Rahul","Sumit"],
+               ["Ram","Dell","HP"]])
+print(a3)
+print(a3.dtype)
+print(a3[0][0])
+print(a3[0][1])
+print(a3[1][1])

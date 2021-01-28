@@ -1,0 +1,11 @@
+from itertools import count 
+iterator =(count(start = 0, step = 2)) 
+print("Even List:",list(next(iterator) for _ in range(5))) 
+iterator = (count(start = 1, step = 2))
+print("Odd List:",list(next(iterator) for _ in range(5))) 
+iterator = (count(start = -1, step = -5))
+print("Negative List:",list(next(iterator) for _ in range(5))) 
+iterator = (count(start = 1.5, step = 0.5))
+print("Float List:",list(next(iterator) for _ in range(5))) 
+iterator = (1+0.5*i for i in count(start = 1, step = 1))
+print("Float List:",list(next(iterator) for _ in range(5)))

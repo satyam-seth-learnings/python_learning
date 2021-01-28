@@ -1,0 +1,2 @@
+# NameError
+print(num)

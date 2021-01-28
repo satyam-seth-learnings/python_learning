@@ -1,0 +1,10 @@
+friends=['Ram','Gopal']
+print(friends)
+friends.append('Lakhan')
+print(friends)
+fruits=[]
+print(fruits)
+fruits.append("Mango")
+print(fruits)
+fruits.append("Grapes")
+print(fruits)

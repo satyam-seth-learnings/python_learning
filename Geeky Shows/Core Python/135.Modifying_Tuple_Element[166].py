@@ -1,0 +1,17 @@
+a=(10,-50,21.3,"Satyam")
+print(a)
+b=(40,50)
+tup1=a+b
+print(tup1)
+print(id(a))
+print(id(tup1))
+tup2=a[0:3]
+print(tup2)
+c=(101,102)
+s1=a[:2]
+s2=a[2:]
+tup3=s1+c+s2
+print(tup3)
+s3=a[3:]
+tup4=s1+c+s3
+print(tup4)

@@ -1,0 +1,6 @@
+f1=open('temp.txt',mode='r')
+f2=open('copy.txt',mode='w')
+data=f1.read()
+f2.write(data)
+f1.close()
+f2.close()

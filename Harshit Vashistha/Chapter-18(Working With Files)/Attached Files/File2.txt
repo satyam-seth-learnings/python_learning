@@ -1,0 +1,3 @@
+I am an example-2 of txt file
+line2
+line3

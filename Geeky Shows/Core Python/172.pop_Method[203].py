@@ -1,0 +1,13 @@
+stu={101:'Rahul',102:'Raj',103:'Sonam'}
+print("Original Dict:")
+print(stu)
+print(id(stu))
+stu.pop(102)
+print(stu)
+print(id(stu))
+removed_value=stu.pop(103)
+print('After Removing Dict:')
+print(stu)
+print(id(stu))
+print('Removed Value:',removed_value)
+print(stu.pop(106,'Not Found'))

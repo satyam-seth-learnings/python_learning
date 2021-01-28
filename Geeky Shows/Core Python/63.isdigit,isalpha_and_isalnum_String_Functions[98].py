@@ -1,0 +1,10 @@
+num1="123456789"
+num2="12abcd89"
+print(num1.isdigit())
+print(num2.isdigit())
+alph="Geeky"
+print(alph.isalpha())
+print(num2.isalpha())
+print(alph.isalnum())
+print(num1.isalnum())
+print(num2.isalnum())

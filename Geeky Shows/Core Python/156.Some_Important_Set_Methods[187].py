@@ -1,0 +1,14 @@
+a={'Rahul','Raj','Sumit','Rani'}
+b={'Sumit','Rahul'}
+print("A:",a)
+print("B:",b)
+ism=a.intersection(b)
+print(ism)
+un=a.union(b)
+print(un)
+diff=a.difference(b)
+print(diff)
+subset=a.issubset(b)
+print(subset)
+superset=a.issuperset(b)
+print(superset)
